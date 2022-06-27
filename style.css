@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.homePage{
+  flex-direction: column;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar{
+  position: sticky;
+  display: flex;
+  height: 3.2em;
+  /* background-color: rgb(44,48,95); */
+  box-shadow: 2px 2px 5px black;
+}
+.nav_logo{
+  /* background-color: red; */
+  height: 3.2em;
+  left: 3em;
+  width: 9em;
+  position: relative;
+}
+.nav_logo img{
+  height: 100%;
+}
+.navbar img{
+  left: 4%;
+  position: relative;
+}
+.navbar_ul{
+  height: 2em;
+  width: 33vw;
+  right: 3%;
+  position: absolute;
+  margin-top: 0.6%;
+  display: flex;
+  list-style: none;
+  /* padding-top: 1%; */
+}
+.nav_li a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.3em;
+  color: black;
+  /* width: 3em; */
+}
+.nav_li:hover{
+  /* color: white;*/
+  border-bottom: 3px solid grey;
+}
+.nav_li{
+  /* border-radius: 10%; */
+  margin-left: 5%;
+  padding-top: 2%; 
+  margin-top: 0.4%;
+  padding-bottom: 1.5em;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.headL h1{
+  color: rgb(58,44,43);
+  text-shadow: 0.6px 0.6px white;
+  font-size: 2.4em;
+}
+.headL p{
+  font-size: 1.4em;
+  color: black;
+}
+.titleSub{
+  /* z-index: -1; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  height: 90%;
+  width: 80%;
+  background-color: rgba(0,0,0,0.3);
+}
+.titleSub img{
+  /* filter: blur(2px); */
+  position: relative;
+  height: 50vh;
+}
+.sampleP{
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+.sampleP1{
+  flex: 20%;
+}
+.sampleP1 h1{
+  margin-top: 1em;
+}
+.sampleP2{
+  padding: 1em;
+  flex:80%;
+  height: 60vh;
+  /* background-color: gray; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prop {
+  background-color: rgba(92,92,92,0.4);
+  width: 24%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.prop:hover{
+  box-shadow: 2px 2px 6px rgb(58,44,43);
+  cursor: pointer;
+}
+.propImg{
+  height: 60%;
+  /* background-color: aqua; */
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.propImg img{
+  height: 100%;
+  border-radius: 10px;
+}
+.agent{
+  padding-top: 1em;
+}
+.agentInfoMain{
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.agentInfo{
+  background-color: rgb(114,113,109);
+  margin: 0 2em;
+  /* margin-top: 3em; */
+  height: 25vh;
+  width: 60%;
+  /* background-color: red; */
+  padding: 1em;
+  display: flex;
+  color: white;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.agentInfo:hover{
+  box-shadow: 2px 3px 4px black;
+  cursor: pointer;
+}
+.agentInfo img{
+  height: 100%;
+  border-radius: 50%;
+}
+.agentInfo p{
+  margin-left:2em ;
+  margin-right:2em ;
+}
+.agentHead{
+  margin-top: 5em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.footer{
+  background:linear-gradient(to right, rgba(31,31,35,1),rgb(31,31,35,0.9));
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.footer h5{
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* font-size: small; */
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: medium;
+}
+.footer p{
+  text-align: start;
+  font-family: 'Tajawal', sans-serif ;
+
+}
+.column1{
+  flex: 0.3;
+}
+.column2{
+  flex: 0.25;
+}.column3{
+  flex: 0.2;
+}.column4{
+  flex: 0.25;
+}
+h5{
+  position: relative;
+  padding-bottom: 10px;
+}
+.footer_h5::after{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 43%;
+  width: 15%;
+  border-bottom: 1px solid white;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+.column3 a{
+  margin-right: 1.9em;
+  margin-left: 0.4em;
+}
